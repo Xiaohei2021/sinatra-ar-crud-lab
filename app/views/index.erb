@@ -1,0 +1,12 @@
+<h1>Welcome fellow Readers!</h1>
+
+<h2>Please see below for all the available articles</h2>
+
+<% @articles.each do |a| %>
+    <ul>
+    <li>ID: <%= a.id %></li>
+    <li>Title: <%= a.title %></li>
+    <li>Content: <%= a.content %></li> 
+    </ul>
+
+<% end %>
